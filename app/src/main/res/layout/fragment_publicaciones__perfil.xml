@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.Perfil.Fragmentos_deperfil.Publicaciones_PerfilFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#28FFA1A1"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:id="@+id/id_perfil01"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/perfil01" />
+
+                    <LinearLayout
+                        android:layout_width="308dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:text="Maria Fernanda" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="Lima - Perú" />
+
+                    </LinearLayout>
+
+                    <ImageButton
+                        android:id="@+id/id_bot_config_public01"
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:layout_gravity="end|right"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="0dp"
+                        android:background="#00FFFFFF"
+                        android:src="@drawable/ic_baseline_menu_public" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="258dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="1h"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:textColor="#000"
+                            android:text="Bienvenida a nuevos admiradores" />
+
+
+                    </LinearLayout>
+
+
+                    <VideoView
+                        android:id="@+id/videoView_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="0dp"
+                        android:layout_weight="0" />
+
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="10dp"
+                    android:layout_height="wrap_content">
+
+                    <ImageButton
+                        android:layout_width="30dp"
+                        android:id="@+id/id_bot_cora_public01"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/ic_publ_megusta1" />
+                    <TextView
+                        android:id="@+id/id_cantidaddecora_public01"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="140"
+                        android:textSize="16dp"
+                        />
+                    <ImageButton
+                        android:id="@+id/id_bot_coment_public01"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/ic_publ_comentario" />
+                    <TextView
+                        android:id="@+id/id_cantidaddecoment_public01"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="80"
+                        android:textSize="16dp"
+                        />
+                    <ImageButton
+                        android:id="@+id/id_bot_compar_public01"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/ic_publ_compartido" />
+
+                    <TextView
+                        android:layout_width="134dp"
+                        android:id="@+id/id_cantidaddecompar_public01"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="7dp"
+                        android:text="42"
+                        android:textSize="16dp" />
+
+                    <ImageButton
+                        android:id="@+id/bton_clappuclic01"
+                        android:layout_width="89dp"
+                        android:layout_height="38dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="3dp"
+                        android:layout_weight="0"
+                        android:background="#00FFFFFF"
+                        android:src="@drawable/clapclap" />
+
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#28FFA1A1"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:id="@+id/id_perfil02"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/perfil01" />
+
+                    <LinearLayout
+                        android:layout_width="308dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:text="Maria Fernanda" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="Lima - Perú" />
+
+                    </LinearLayout>
+
+                    <ImageButton
+                        android:id="@+id/id_bot_config_public02"
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:layout_gravity="end|right"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="0dp"
+                        android:background="#00FFFFFF"
+                        android:src="@drawable/ic_baseline_menu_public" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="258dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="2h"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:textColor="#000"
+                            android:text="Disfruto tocar la guitarra para los vaiajntes" />
+
+                    </LinearLayout>
+
+                    <VideoView
+                        android:id="@+id/videoView_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="0dp"
+                        android:layout_weight="0" />
+
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="10dp"
+                    android:layout_height="wrap_content">
+
+                    <ImageButton
+                        android:layout_width="30dp"
+                        android:id="@+id/id_bot_cora_public02"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/ic_publ_megusta1" />
+                    <TextView
+                        android:id="@+id/id_cantidaddecora_public02"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="145"
+                        android:textSize="16dp"
+                        />
+                    <ImageButton
+                        android:id="@+id/id_bot_coment_public02"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/ic_publ_comentario" />
+                    <TextView
+                        android:id="@+id/id_cantidaddecoment_public02"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="93"
+                        android:textSize="16dp"
+                        />
+                    <ImageButton
+                        android:id="@+id/id_bot_compar_public02"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/ic_publ_compartido" />
+
+                    <TextView
+                        android:layout_width="134dp"
+                        android:id="@+id/id_cantidaddecompar_public02"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="18"
+                        android:textSize="16dp" />
+
+                    <ImageButton
+                        android:id="@+id/bton_clappuclic02"
+                        android:layout_width="89dp"
+                        android:layout_height="38dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="3dp"
+                        android:layout_weight="0"
+                        android:background="#00FFFFFF"
+                        android:src="@drawable/clapclap" />
+
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#28FFA1A1"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:id="@+id/id_perfil03"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/perfil01" />
+
+                    <LinearLayout
+                        android:layout_width="308dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:text="Maria Fernanda" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="Lima - Perú" />
+
+                    </LinearLayout>
+
+                    <ImageButton
+                        android:id="@+id/id_bot_config_public03"
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:layout_gravity="end|right"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="0dp"
+                        android:background="#00FFFFFF"
+                        android:src="@drawable/ic_baseline_menu_public" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="258dp"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="2h"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:textColor="#000"
+                            android:text="Nuevo video espero que les gueste" />
+
+                    </LinearLayout>
+
+
+
+
+                    <VideoView
+                        android:id="@+id/videoView_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="0dp"
+                        android:layout_weight="0" />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="10dp"
+                    android:layout_height="wrap_content">
+
+                    <ImageButton
+                        android:layout_width="30dp"
+                        android:id="@+id/id_bot_cora_public03"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/ic_publ_megusta1" />
+                    <TextView
+                        android:id="@+id/id_cantidaddecora_public03"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="222"
+                        android:textSize="16dp"
+                        />
+                    <ImageButton
+                        android:id="@+id/id_bot_coment_public03"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/ic_publ_comentario" />
+                    <TextView
+                        android:id="@+id/id_cantidaddecoment_public03"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="55"
+                        android:textSize="16dp"
+                        />
+                    <ImageButton
+                        android:id="@+id/id_bot_compar_public03"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/ic_publ_compartido" />
+
+                    <TextView
+                        android:layout_width="134dp"
+                        android:id="@+id/id_cantidaddecompar_public03"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="28"
+                        android:textSize="16dp" />
+
+                    <ImageButton
+                        android:id="@+id/bton_clappuclic03"
+                        android:layout_width="89dp"
+                        android:layout_height="38dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="3dp"
+                        android:layout_weight="0"
+                        android:background="#00FFFFFF"
+                        android:src="@drawable/clapclap" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#28FFA1A1"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:id="@+id/id_perfil04"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/perfil01" />
+
+                    <LinearLayout
+                        android:layout_width="308dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:text="Maria Fernanda" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="Lima - Perú" />
+
+                    </LinearLayout>
+
+                    <ImageButton
+                        android:id="@+id/id_bot_config_public04"
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:layout_gravity="end|right"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="0dp"
+                        android:background="#00FFFFFF"
+                        android:src="@drawable/ic_baseline_menu_public" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="258dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="4h"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:textColor="#000"
+                            android:text="Contenido nuevo, dejen su cometario" />
+
+                    </LinearLayout>
+
+
+                    <VideoView
+                        android:id="@+id/videoView_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="0dp"
+                        android:layout_weight="0" />
+
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="10dp"
+                    android:layout_height="wrap_content">
+
+                    <ImageButton
+                        android:layout_width="30dp"
+                        android:id="@+id/id_bot_cora_public04"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/ic_publ_megusta1" />
+                    <TextView
+                        android:id="@+id/id_cantidaddecora_public04"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="143"
+                        android:textSize="16dp"
+                        />
+                    <ImageButton
+                        android:id="@+id/id_bot_coment_public04"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/ic_publ_comentario" />
+                    <TextView
+                        android:id="@+id/id_cantidaddecoment_public04"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="53"
+                        android:textSize="16dp"
+                        />
+                    <ImageButton
+                        android:id="@+id/id_bot_compar_public04"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/ic_publ_compartido" />
+
+                    <TextView
+                        android:layout_width="134dp"
+                        android:id="@+id/id_cantidaddecompar_public04"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="10"
+                        android:textSize="16dp" />
+
+                    <ImageButton
+                        android:id="@+id/bton_clappuclic04"
+                        android:layout_width="89dp"
+                        android:layout_height="38dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="3dp"
+                        android:layout_weight="0"
+                        android:background="#00FFFFFF"
+                        android:src="@drawable/clapclap" />
+
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

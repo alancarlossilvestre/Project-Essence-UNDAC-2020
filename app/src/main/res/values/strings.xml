@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">doblenav</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <!-- TODO: STRING PARA EL MENU LATERAL Y BARRA INFERIOR-->
+    <string name="st_menu_Inicio">Inicio</string>
+    <string name="st_menu_Notificaciones">Notificaciones</string>
+    <string name="st_menu_Retos">Retos</string>
+    <string name="st_menu_Categorias">Categorias</string>
+    <string name="st_menu_Perfil">Perfil</string>
+    <string name="st_menu_Top">Top</string>
+    <string name="st_menu_Contacto">Contactos</string>
+    <string name="st_menu_Configuracion">Configuración</string>
+    <!-- TODO: STRINGS PARA FRAGMENT CATEGORIA -->
+    <string name="st_cat_boton_expandir">TOP</string>
+    <string name="st_cat_Comedia">Comedia</string>
+    <string name="st_cat_Pintura">Pintura</string>
+    <string name="st_cat_Musica">Instrumental</string>
+    <string name="st_cat_Magia">Magia</string>
+    <!-- TODO: STRINGS PARA FRAGMENT CATEGORIA Frases -->
+    <string name="st_cat_Comedia_frase">“La comedia es una forma graciosa de decir la verdad.”</string>
+    <string name="st_cat_Pintura_frase">Pintura</string>
+    <string name="st_cat_Musica_frase">Música</string>
+    <string name="st_cat_Magia_frase"></string>
+
+    <!-- TODO: STRINGS PARA FRAGMENT PERFIL -->
+    <string name="st_per_cuidad">Lima-Perú</string>
+    <string name="st_per_seguidores">321 Admiradores</string>
+    <string name="st_per_publicaciones">45 Publicaciones</string>
+    <string name="st_per_NOMBRE">Maria Fernanda</string>
+    <string name="st_per_Alias">MariArt</string>
+
+    <!-- TODO: STRINGS PARA BARRA SUPERIOR  -->
+    <string name="st_bar_sup_perfil">Perfil</string>
+    <string name="st_bar_sup_busqueda">Buscar</string>
+
+    <!--  TODO: AYUDAAAA -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="boton_ver">Ver</string>
+</resources>

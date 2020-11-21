@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.doblenav.ui.Inicio.InicioFragment"
+        android:label="@string/st_menu_Inicio"
+        tools:layout="@layout/fragment_inicio" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.doblenav.ui.Notificacion.NotificacionFragment"
+        android:label="@string/st_menu_Notificaciones"
+        tools:layout="@layout/fragment_notificacion" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.doblenav.ui.Retos.RetosFragment"
+        android:label="@string/st_menu_Retos"
+        tools:layout="@layout/fragment_retos" />
+    <fragment
+        android:id="@+id/id_lat_categorias"
+        android:name="com.example.doblenav.ui.Categoria.CategoriaFragment"
+        android:label="@string/st_menu_Categorias"
+        tools:layout="@layout/fragment_categoria" />
+    <fragment
+        android:id="@+id/id_lat_perfil"
+        android:name="com.example.doblenav.ui.Perfil.PerfilFragment"
+        android:label="@string/st_menu_Perfil"
+        tools:layout="@layout/fragment_perfil" />
+    <fragment
+        android:id="@+id/id_lat_Tops"
+        android:name="com.example.doblenav.ui.Top.TopFragment"
+        android:label="@string/st_menu_Top"
+        tools:layout="@layout/fragment_top" />
+    <fragment
+        android:id="@+id/id_lat_contacto"
+        android:name="com.example.doblenav.ui.Contactos.ContactosFragment"
+        android:label="@string/st_menu_Contacto"
+        tools:layout="@layout/fragment_contactos" />
+    <fragment
+        android:id="@+id/id_lat_configuracion"
+        android:name="com.example.doblenav.ui.Configuracion.ConfiguracionFragment"
+        android:label="@string/st_menu_Configuracion"
+        tools:layout="@layout/fragment_configuracion" />
+</navigation>

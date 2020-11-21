@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+    <group android:checkableBehavior="single"
+        >
+        <item
+            android:id="@+id/nav_home"
+            android:title="Inicio"
+
+            android:icon="@drawable/ic_menu_inicio"
+            />
+        <item
+            android:icon="@drawable/ic_menu_notify"
+            android:id="@+id/nav_gallery"
+            android:title="Notificaciones"
+            />
+        <item
+            android:icon="@drawable/ic_menu_retos"
+            android:id="@+id/nav_slideshow"
+            android:title="Retos"
+            />
+        <item
+            android:icon="@drawable/ic_menu_categorias"
+            android:id="@+id/id_lat_categorias"
+            android:title="Categorias"
+            />
+        <item
+            android:icon="@drawable/ic_menu_top"
+            android:id="@+id/id_lat_Tops"
+            android:title="Top"
+            />
+    </group>
+    <group android:checkableBehavior="single">
+
+        <item android:title="Perfil" >
+            <menu>
+                <item
+                    android:icon="@drawable/ic_menu_perfil"
+                    android:id="@+id/id_lat_perfil"
+                    android:title="Yo"
+                    />
+                <item
+                    android:icon="@drawable/ic_menu_lat_contacto"
+                    android:id="@+id/id_lat_contacto"
+                    android:title="Contactos"
+                    />
+            </menu>
+        </item>
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:title="Más" >
+            <menu>
+                <item
+                    android:icon="@drawable/ic_menu_lat_configuracion"
+                    android:id="@+id/id_lat_configuracion"
+                    android:title="Configuración"
+                    />
+                <item
+                    android:icon="@drawable/ic_menu_lat_cerrarsesion"
+                    android:id="@+id/id_lat_cerrarsesion"
+                    android:title="Cerrar Sesión"
+                    />
+            </menu>
+        </item>
+    </group>
+</menu>

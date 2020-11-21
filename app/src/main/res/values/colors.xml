@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F76FB2</color>
+    <color name="colorPrimaryDark">#FBC02D</color>
+    <color name="colorAccent">#F76FB2</color>
+    <color name="color_de_texto_boton_retos">#2C2C44</color>
+    <color name="color_del_boton_ver_reto">#FAE9BB</color>
+</resources>
