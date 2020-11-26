@@ -1,21 +1,18 @@
 package com.example.doblenav;
 
 import android.os.Bundle;
-import android.support.wearable.activity.WearableActivity;
+
 import android.widget.TextView;
 
-public class usuarioregistro extends WearableActivity {
+import androidx.appcompat.app.AppCompatActivity;
 
-    private TextView mTextView;
-
+public class usuarioregistro extends AppCompatActivity {
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+
+    protected void onCreate   (Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ma);
+        setContentView(R.layout.activity_registro);
 
-        mTextView = (TextView) findViewById(R.id.text);
 
-        // Enables Always-on
-        setAmbientEnabled();
     }
-}
+   }

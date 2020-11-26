@@ -41,4 +41,26 @@
     <!--  TODO: AYUDAAAA -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="boton_ver">Ver</string>
+    <string name="title_activity_registro_usuario">registro_usuario</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="title_activity_usuarioregistro">usuarioregistro</string>
+
+
+    <!--  TODO: REGISTRO-->
+    <string name="Nombre_login">Nombre</string>
+    <string name="NomART_login">Nombre Artistico</string>
+    <string name="Correo_login">Correo Electronico</string>
+    <string name="Contra_login">Contraseña</string>
+    <string name="VerifContra_login">Verificar Contraseña</string>
+    <string name="NúmContratos_login">Número para contratos</string>
+    <string name="date_login">Fecha de nacimiento</string>
+    <string name="sex_M_login">Masculino</string>
+    <string name="sex_F_login">Femenino</string>
+    <string name="sex_S_login">Sin especificar</string>
+    <string name="Terminos_login">Terminos y Condiciones</string>
+    <string name="BotUnirlogin">UNIRSE A ESSENCE</string>
 </resources>
