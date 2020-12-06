@@ -41,4 +41,10 @@
     <!--  TODO: AYUDAAAA -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="boton_ver">Ver</string>
+    <!--  String: Login -->
+    <string name="hint_username">Nombre</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="text_button_login">Iniciar Sesión</string>
+    <string name="dont_have_account">¿Aún no tienes una cuenta?</string>
+    <string name="create_here"> Registrate aquí</string>
 </resources>
