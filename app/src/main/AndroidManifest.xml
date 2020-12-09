@@ -39,24 +39,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".ui.registro_usuario"
-            android:label="@string/title_activity_registro_usuario">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
 
         <activity
             android:name=".Login"
             android:label="@string/app_name"
 
             android:theme="@style/SplashTheme">
-=======
-            android:theme="@style/AppTheme.NoActionBar">
->>>>>>> 87ca7de80adc995fa94ab77783775c8563538f4e
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
