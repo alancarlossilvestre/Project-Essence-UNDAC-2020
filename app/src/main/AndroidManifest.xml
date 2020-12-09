@@ -1,24 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.doblenav">
-<<<<<<< HEAD
-=======
+
+
 
     <uses-permission android:name="android.permission.WAKE_LOCK" />
 
     <uses-feature android:name="android.hardware.type.watch" />
->>>>>>> 87ca7de80adc995fa94ab77783775c8563538f4e
+
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
-        android:supportsRtl="true"
-<<<<<<< HEAD
-        >
-=======
-        android:theme="@style/AppTheme">
+        android:supportsRtl="true">
+
+
         <activity android:name=".talento_propio"></activity>
 
         <uses-library
@@ -50,11 +48,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
->>>>>>> 87ca7de80adc995fa94ab77783775c8563538f4e
+
         <activity
             android:name=".Login"
             android:label="@string/app_name"
-<<<<<<< HEAD
+
             android:theme="@style/SplashTheme">
 =======
             android:theme="@style/AppTheme.NoActionBar">
