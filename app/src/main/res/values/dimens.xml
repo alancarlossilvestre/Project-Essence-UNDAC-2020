@@ -9,7 +9,7 @@
     <dimen name="padding_horizontal_login">32dp</dimen>
     <dimen name="edittext_textsize_login">22sp</dimen>
     <dimen name="textsize_donthaveaccount">16sp</dimen>
-=======
+
     <!--
     Because the window insets on round devices are larger than 15dp, this padding only applies
     to square screens.

@@ -5,13 +5,13 @@
     <color name="colorAccent">#F76FB2</color>
     <color name="color_de_texto_boton_retos">#2C2C44</color>
     <color name="color_del_boton_ver_reto">#FAE9BB</color>
-<<<<<<< HEAD
+
 
     <color name="editTextColorWhite">#FFFFFF</color>
     <color name="editTextColorBlack">#000000</color>
     <color name="backgroundtext_card">#53292929</color>
-=======
+
     <color name="color_switch">#FFEB3B</color>
     <color name="color_terminos_text">#3352FF</color>
->>>>>>> 87ca7de80adc995fa94ab77783775c8563538f4e
+
 </resources>
