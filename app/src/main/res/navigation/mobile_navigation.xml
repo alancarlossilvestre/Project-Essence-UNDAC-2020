@@ -51,12 +51,11 @@
         android:id="@+id/login"
         android:name="com.example.doblenav.Login"
         android:label="Login" />
-<<<<<<< HEAD
-=======
+
     <activity
         android:id="@+id/usuarioregistro"
         android:name="com.example.doblenav.usuarioregistro"
         android:label="activity_registro"
         tools:layout="@layout/activity_registro" />
->>>>>>> 75594f3d6d957c4aaba9b591f79e5e8b026ec8c2
+
 </navigation>
