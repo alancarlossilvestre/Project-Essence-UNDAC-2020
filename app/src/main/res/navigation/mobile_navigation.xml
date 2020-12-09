@@ -47,4 +47,13 @@
         android:name="com.example.doblenav.ui.Configuracion.ConfiguracionFragment"
         android:label="@string/st_menu_Configuracion"
         tools:layout="@layout/fragment_configuracion" />
+    <activity
+        android:id="@+id/login"
+        android:name="com.example.doblenav.Login"
+        android:label="Login" />
+    <activity
+        android:id="@+id/usuarioregistro"
+        android:name="com.example.doblenav.usuarioregistro"
+        android:label="activity_registro"
+        tools:layout="@layout/activity_registro" />
 </navigation>

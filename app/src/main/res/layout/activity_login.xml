@@ -99,10 +99,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:background="#2C2C44"
-                        android:theme="@style/RaisedButtonDark"
                         android:text="@string/text_button_login"
-                        android:onClick="ir_a_principal"
-                        />
+                        android:theme="@style/RaisedButtonDark" />
 
                     <RelativeLayout
                         android:layout_width="match_parent"
