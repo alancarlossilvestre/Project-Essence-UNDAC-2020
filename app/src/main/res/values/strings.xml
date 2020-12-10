@@ -48,7 +48,7 @@
     <string name="text_button_login">Iniciar Sesión</string>
     <string name="dont_have_account">¿Aún no tienes una cuenta?</string>
     <string name="create_here"> Registrate aquí</string>
-=======
+    =======
     <string name="title_activity_registro_usuario">registro_usuario</string>
     <!--
     This string is used for square devices and overridden by hello_world in
