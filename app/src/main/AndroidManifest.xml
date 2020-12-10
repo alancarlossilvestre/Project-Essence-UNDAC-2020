@@ -13,6 +13,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".usuarioregistro"></activity>
         <activity android:name=".tatento_a_seguir"></activity>
         <activity android:name=".talento_propio" />
         <activity

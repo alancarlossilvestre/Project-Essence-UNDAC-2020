@@ -40,7 +40,7 @@
                         android:layout_weight="1"
                         android:fontFamily="@font/berkshireswash_regular"
                         android:gravity="center"
-                        android:text="¿Cuál es tu tatento?"
+                        android:text="¿Cuál es tu talento?"
                         android:textColor="#fff"
                         android:textSize="30dp" />
 
