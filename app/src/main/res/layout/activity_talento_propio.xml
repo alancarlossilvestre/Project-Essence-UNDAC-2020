@@ -95,7 +95,7 @@
                                 android:layout_width="2dp"
                                 android:background="#FFEB3B"
                                 android:layout_height="50dp"
-                                android:layout_weight="0dp"
+
                                  />
                             <TextView
                                 android:layout_width="74dp"
@@ -136,7 +136,7 @@
 
                                 android:layout_width="2dp"
                                 android:layout_height="50dp"
-                                android:layout_weight="0dp"
+
                                 android:background="#00FDFD" />
 
                             <TextView
@@ -176,7 +176,7 @@
 
                                 android:layout_width="2dp"
                                 android:layout_height="40dp"
-                                android:layout_weight="0dp"
+
                                 android:background="#00caca" />
 
                             <TextView
@@ -225,7 +225,7 @@
 
                                 android:layout_width="2dp"
                                 android:layout_height="40dp"
-                                android:layout_weight="0dp"
+
                                 android:background="#00caca" />
 
                             <TextView
@@ -268,7 +268,7 @@
 
                                 android:layout_width="2dp"
                                 android:layout_height="40dp"
-                                android:layout_weight="0dp"
+
                                 android:background="#00caca" />
 
                             <TextView
@@ -310,7 +310,7 @@
 
                                     android:layout_width="2dp"
                                     android:layout_height="40dp"
-                                    android:layout_weight="0dp"
+
                                     android:background="#00caca" />
 
                                 <TextView
@@ -360,7 +360,7 @@
 
                                 android:layout_width="2dp"
                                 android:layout_height="40dp"
-                                android:layout_weight="0dp"
+
                                 android:background="#00caca" />
 
                             <TextView
@@ -402,7 +402,7 @@
 
                                 android:layout_width="2dp"
                                 android:layout_height="40dp"
-                                android:layout_weight="0dp"
+
                                 android:background="#00caca" />
 
                             <TextView
@@ -443,7 +443,7 @@
 
                                 android:layout_width="2dp"
                                 android:layout_height="40dp"
-                                android:layout_weight="0dp"
+
                                 android:background="#00caca" />
 
                             <TextView
@@ -493,7 +493,7 @@
 
                                 android:layout_width="2dp"
                                 android:layout_height="40dp"
-                                android:layout_weight="0dp"
+
                                 android:background="#00caca" />
 
                             <TextView
@@ -535,7 +535,7 @@
 
                                 android:layout_width="2dp"
                                 android:layout_height="40dp"
-                                android:layout_weight="0dp"
+
                                 android:background="#00caca" />
 
                             <TextView
@@ -576,7 +576,7 @@
 
                                 android:layout_width="2dp"
                                 android:layout_height="40dp"
-                                android:layout_weight="0dp"
+
                                 android:background="#00caca" />
 
                             <TextView
