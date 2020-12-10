@@ -17,13 +17,14 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
+
+            android:layout_marginTop="10dp"
             android:orientation="vertical">
 
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
-                android:layout_marginBottom="8dp"
+                android:layout_marginBottom="3dp"
                 android:background="@drawable/categiria_comedia">
 
 
@@ -68,7 +69,7 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
-                android:layout_marginBottom="8dp"
+                android:layout_marginBottom="3dp"
                 android:background="@drawable/categiria_musica">
 
 
@@ -98,6 +99,12 @@
                             android:text="@string/st_cat_Musica"
                             android:textColor="#fff"
                             android:textSize="34sp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="10dp"
+                            android:text="La música es la banda sonora de la vida"
+                            android:textColor="#fbd347" />
 
 
                     </LinearLayout>
@@ -107,7 +114,7 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
-                android:layout_marginBottom="8dp"
+                android:layout_marginBottom="3dp"
                 android:background="@drawable/categiria_pintura">
 
 
@@ -137,6 +144,12 @@
                             android:text="@string/st_cat_Pintura"
                             android:textColor="#fff"
                             android:textSize="34sp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="10dp"
+                            android:text="Una pintura es una fotografía hecha a mano"
+                            android:textColor="#fbd347" />
 
 
                     </LinearLayout>
@@ -146,7 +159,7 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
-                android:layout_marginBottom="8dp"
+                android:layout_marginBottom="3dp"
                 android:background="@drawable/categiria_magia">
 
 
@@ -176,6 +189,12 @@
                             android:text="@string/st_cat_Magia"
                             android:textColor="#fff"
                             android:textSize="34sp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="10dp"
+                            android:text="La magia está en cada rincón, sólo hay que observar atentamente."
+                            android:textColor="#fbd347" />
 
 
                     </LinearLayout>
@@ -185,7 +204,7 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
-                android:layout_marginBottom="8dp"
+                android:layout_marginBottom="3dp"
                 android:background="@drawable/categiria_graffiti">
 
 
@@ -215,6 +234,12 @@
                             android:text="Graffiti"
                             android:textColor="#fff"
                             android:textSize="34sp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="10dp"
+                            android:text="Aprovecha lo que la ciudad desperdicia"
+                            android:textColor="#fbd347" />
 
 
                     </LinearLayout>
@@ -224,7 +249,7 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
-                android:layout_marginBottom="8dp"
+                android:layout_marginBottom="3dp"
                 android:background="@drawable/categiria_escultura">
 
 
@@ -254,6 +279,12 @@
                             android:text="Escultura"
                             android:textColor="#fff"
                             android:textSize="34sp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="10dp"
+                            android:text="Una escultura no es sólo una imagen, son muchas imágenes."
+                            android:textColor="#fbd347" />
 
 
                     </LinearLayout>
@@ -263,7 +294,7 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
-                android:layout_marginBottom="8dp"
+                android:layout_marginBottom="3dp"
                 android:background="@drawable/categiria_baile">
 
 
@@ -293,6 +324,12 @@
                             android:text="Danza Cultural"
                             android:textColor="#fff"
                             android:textSize="34sp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="10dp"
+                            android:text="La danza es un equilibrio delicado entre perfección y belleza."
+                            android:textColor="#fbd347" />
 
 
                     </LinearLayout>
@@ -302,7 +339,7 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
-                android:layout_marginBottom="8dp"
+                android:layout_marginBottom="3dp"
                 android:background="@drawable/categoria_baileurbano">
 
 
@@ -332,6 +369,12 @@
                             android:text="Baile Urbano"
                             android:textColor="#fff"
                             android:textSize="34sp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="10dp"
+                            android:text="Baila como si nadie estuviera mirando."
+                            android:textColor="#fbd347" />
 
 
                     </LinearLayout>
@@ -341,7 +384,7 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
-                android:layout_marginBottom="8dp"
+                android:layout_marginBottom="3dp"
                 android:background="@drawable/categiria_canto">
 
 
@@ -371,6 +414,12 @@
                             android:text="Canto"
                             android:textColor="#fff"
                             android:textSize="34sp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="10dp"
+                            android:text="El canto es una ceremonia de amor del artista para el publico."
+                            android:textColor="#fbd347" />
 
 
                     </LinearLayout>
@@ -380,7 +429,7 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
-                android:layout_marginBottom="8dp"
+                android:layout_marginBottom="3dp"
                 android:background="@drawable/categiria_foto">
 
 
@@ -410,6 +459,12 @@
                             android:text="Fotografía"
                             android:textColor="#fff"
                             android:textSize="34sp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="10dp"
+                            android:text="En la fotografía hay una realidad tan sutil que llega a ser más real que la realidad."
+                            android:textColor="#fbd347" />
 
 
                     </LinearLayout>
@@ -419,7 +474,7 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
-                android:layout_marginBottom="8dp"
+                android:layout_marginBottom="3dp"
                 android:background="@drawable/categiria_escritura">
 
 
@@ -449,6 +504,12 @@
                             android:text="Escritura"
                             android:textColor="#fff"
                             android:textSize="34sp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="10dp"
+                            android:text="La escritura no es producto de la magia, sino de la perseverancia."
+                            android:textColor="#fbd347" />
 
 
                     </LinearLayout>
@@ -458,7 +519,7 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
-                android:layout_marginBottom="8dp"
+                android:layout_marginBottom="3dp"
                 android:background="@drawable/categiria_dibijo">
 
 
@@ -488,6 +549,12 @@
                             android:text="Dibujo"
                             android:textColor="#fff"
                             android:textSize="34sp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="10dp"
+                            android:text="Cuando se dibuja algo, el cerebro y las manos trabajan juntos."
+                            android:textColor="#fbd347" />
 
 
                     </LinearLayout>

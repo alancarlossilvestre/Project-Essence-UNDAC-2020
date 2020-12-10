@@ -10,9 +10,12 @@
     <com.google.android.material.appbar.AppBarLayout
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
-        android:theme="@style/AppTheme.AppBarOverlay">
 
+<<<<<<< HEAD
     </com.google.android.material.appbar.AppBarLayout>
+=======
+        android:theme="@style/AppTheme.AppBarOverlay"/>
+>>>>>>> cd4ee988806085fe413ee7f852f0bb6ff4892aa2
 
     <include layout="@layout/content_main"/>
 

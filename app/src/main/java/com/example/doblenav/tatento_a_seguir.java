@@ -1,40 +1,33 @@
 package com.example.doblenav;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.content.Intent;
 import android.os.Bundle;
-
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
-import android.widget.Button;
-import android.widget.TextView;
-import android.widget.Toolbar;
+import android.widget.ImageButton;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-public class usuarioregistro extends AppCompatActivity {
-    Button ir_inicio;
+public class tatento_a_seguir extends AppCompatActivity {
+    ImageButton ir_seguir_home;
     @Override
-
-    protected void onCreate   (Bundle savedInstanceState){
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         getSupportActionBar().hide();
 
-        setContentView(R.layout.activity_registro);
+        setContentView(R.layout.activity_tatento_a_seguir);
 
-
-
-
-        ir_inicio = (Button) findViewById(R.id.id_btn_irlogin);
-        ir_inicio.setOnClickListener(new View.OnClickListener() {
+        ir_seguir_home = (ImageButton) findViewById(R.id.imageButton);
+        ir_seguir_home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(getApplicationContext(), Login.class);
+                Intent i = new Intent(getApplicationContext(), MainActivity.class);
                 startActivity(i);
             }
         });
     }
-   }
+}

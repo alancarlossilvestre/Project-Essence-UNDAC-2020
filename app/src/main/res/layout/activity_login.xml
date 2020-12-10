@@ -8,6 +8,7 @@
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
     tools:context=".MainActivity"
+    android:theme="@style/Theme.AppCompat.Light.NoActionBar"
     android:background="@drawable/fondo_login"
     >
 
@@ -22,8 +23,7 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="0.7"
-            >
+            android:layout_weight="0.7">
 
         </RelativeLayout>
 
@@ -122,22 +122,24 @@
                                <!--  android:onClick="goCreateAccount"-->
 
                     </RelativeLayout>
+
                     <RelativeLayout
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="23dp"
                         android:gravity="left"
 
                         >
-                    <TextView
-                        android:id="@+id/createHere"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/create_here"
-                        android:textColor="@android:color/white"
-                        android:textStyle="bold"
-                        android:textSize="@dimen/textsize_donthaveaccount"
 
-                        />
+                        <Button
+                            android:id="@+id/id_btn_ir_regist"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="#00FFFFFF"
+                            android:text="Registrate aquí"
+                            android:textColor="#26C2FF"
+
+                            android:textStyle="bold" />
+
                     </RelativeLayout>
 
                 </LinearLayout>
